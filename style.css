@@ -1,11 +1,11 @@
 body {
-    margin-top: 10%;
     padding: 0;
     background-color: #d6e2f0;
     font-family: 'Outfit', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-content: center;
+    max-width: 100vw;
+    min-height: 100vh;
 }
 
 .attribution {
